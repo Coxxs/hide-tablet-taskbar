@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Modified from: https://github.com/phhusson/vendor_hardware_overlay/blob/pie/build/build.sh
+
 set -e
 
 if [ "$1" == "--local-aapt" ];then
