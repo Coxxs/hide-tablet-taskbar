@@ -1,0 +1,6 @@
+id=moedevfixtaskbar
+name=Hide taskbar
+version=1.0
+versionCode=1
+author=Coxxs
+description=Hide tablet taskbar in AOSP 12.1+

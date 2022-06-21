@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="taskbar_stashed_size">0dp</dimen>
+    <dimen name="taskbar_stashed_handle_height">0dp</dimen>
+<!--     <dimen name="taskbar_size">60dp</dimen> -->
+</resources>

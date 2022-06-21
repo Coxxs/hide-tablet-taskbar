@@ -1,0 +1,27 @@
+name: Build
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out
+      uses: actions/checkout@main
+
+    - name: Prepare the environment
+      run: |
+        sudo apt -y install git-core git xmlstarlet
+        sudo apt update
+
+    - name: Build
+      run: |
+        bash build.sh
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        path: build/output/*.zip
+        name: Modules
