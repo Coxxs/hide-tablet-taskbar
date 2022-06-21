@@ -1,4 +1,4 @@
-# Hide Tablet Taskbar
+# Hide tablet taskbar (Android 12.1+)
 
 A [Magisk](https://github.com/topjohnwu/Magisk) module to:
 
