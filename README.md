@@ -1,6 +1,7 @@
-# Hide tablet taskbar (Android 12.1+)
+# Hide tablet taskbar
 
 A [Magisk](https://github.com/topjohnwu/Magisk) module to:
 
-- Hide tablet taskbar pill (Long press to hide, for Android 12.1+)
-- Fix tablet taskbar height (for PixelExperience 12.1)
+- Hide tablet gesture bar (Long press to hide, Android 12.1+)
+- Fix tablet taskbar height (PixelExperience 12.1+)
+- Fix launcher crash (PixelExperience 13)

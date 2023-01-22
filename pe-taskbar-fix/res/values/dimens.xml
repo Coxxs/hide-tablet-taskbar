@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    <dimen name="taskbar_stashed_size">0dp</dimen>-->
-<!--    <dimen name="taskbar_stashed_handle_height">0dp</dimen>-->
+    <!--<dimen name="taskbar_stashed_size">0dp</dimen>-->
+    <!--<dimen name="taskbar_stashed_handle_height">0dp</dimen>-->
     <dimen name="taskbar_size">60dp</dimen>
+
+    <!-- Fix launcher crash on Android 13 -->
+    <!-- The min scale for the wallpaper when it's zoomed out -->
+    <item name="config_wallpaperMinScale" format="float" type="dimen">1</item>
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1.10</item>
 </resources>
